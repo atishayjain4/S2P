@@ -1,28 +1,17 @@
 import React from 'react';
-
-interface CatalogItem {
-  name: string;
-  price: string;
-  image: string;
-}
-
-const items: CatalogItem[] = [
-  { name: 'Oil Drum', price: '₹ 4,200.00', image: '/assets/images/oil-drum.png' },
-  { name: 'Steel Pipe', price: '₹ 5,000.00', image: '/assets/images/steel-pipe.png' },
-  { name: 'Pipe Flange', price: '₹ 1,500.00', image: '/assets/images/pipe-flange.png' },
-  { name: 'Ball Valve', price: '₹ 8,000.00', image: '/assets/images/ball-valve.png' },
-];
+import { CatalogItem } from '../types/catalog';
+import { catalogItems } from '../constants/catalog';
 
 const CatalogSearch: React.FC = () => (
   <aside className="w-full md:w-1/2 lg:w-2/5 bg-gray-50 p-6 rounded-lg shadow">
-    <h2 className="text-lg font-semibold mb-4">OIL & GAS MATERIALS</h2>
+    <h2 className="text-lg font-bold mb-4">OIL & GAS MATERIALS</h2>
     <input
       type="text"
       placeholder="Search"
       className="w-full mb-4 px-3 py-2 border rounded focus:outline-none focus:ring"
     />
     <ul>
-      {items.map((item) => (
+      {catalogItems.map((item) => (
         <li key={item.name} className="flex items-center mb-6">
           <img src={item.image} alt={item.name} className="h-12 w-12 object-contain mr-4" />
           <div className="flex-1">

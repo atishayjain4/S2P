@@ -1,26 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { 
-  MdChevronLeft, 
-  MdChevronRight,
-  MdDashboard,
-  MdFactory,
-  MdSettings,
-  MdChat,
-  MdIntegrationInstructions,
-  MdVisibility,
-  MdAnalytics
-} from 'react-icons/md';
-
-const menuItems = [
-  { label: 'Dashboard', path: '/dashboard', icon: MdDashboard },
-  { label: 'AI Factory', path: '/dashboard/ai-factory', icon: MdFactory },
-  { label: 'Agent Configurations', path: '/dashboard/agent-configurations', icon: MdSettings },
-  { label: 'Agent communications', path: '/dashboard/agent-communications', icon: MdChat },
-  { label: 'AI Integrations', path: '/dashboard/ai-integrations', icon: MdIntegrationInstructions },
-  { label: 'Agent Observability', path: '/dashboard/agent-observability', icon: MdVisibility },
-  { label: 'Analytics', path: '/dashboard/analytics', icon: MdAnalytics },
-];
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import { dashboardMenuItems } from '../constants/dashboard';
+import shellLogo from '../assets/images/logo.svg';
 
 const DashboardSidebar: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
@@ -36,7 +18,7 @@ const DashboardSidebar: React.FC = () => {
               className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
               onClick={() => navigate('/dashboard')}
             >
-              <img src="/src/assets/images/logo.svg" alt="Shell Logo" className="h-8 w-8" />
+              <img src={shellLogo} alt="Shell Logo" className="h-8 w-8" />
               {!collapsed && (
                 <span className="text-subheading text-[#346fb7] font-semibold">Shell AI</span>
               )}
@@ -44,7 +26,7 @@ const DashboardSidebar: React.FC = () => {
           </div>
 
           <ul className="space-y-2 flex-1">
-            {menuItems.map((item) => {
+            {dashboardMenuItems.map((item) => {
               const IconComponent = item.icon;
               return (
                 <li key={item.path}>
