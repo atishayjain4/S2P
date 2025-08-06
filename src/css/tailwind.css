@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --shell-red: #ED1C24;
+  --shell-blue: #005DAA;
+  --shell-yellow: #FFD500;
+  --light-grey: #F5F5F5;
+}
+
+@layer base {
+  body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#ED1C24] text-white px-4 py-2 rounded-lg font-medium hover:bg-red-700 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#005DAA] text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200;
+  }
+  
+  .input-field {
+    @apply bg-[#F5F5F5] border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#005DAA] focus:border-transparent;
+  }
+  
+  .text-heading {
+    @apply text-base font-bold;
+  }
+  
+  .text-subheading {
+    @apply text-sm font-medium;
+  }
+  
+  .text-regular {
+    @apply text-xs font-normal;
+  }
+} 
