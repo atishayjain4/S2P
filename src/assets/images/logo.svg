@@ -1,12 +1,19 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Shell shape with characteristic curves -->
-  <path d="M12 32 C12 20 20 12 32 12 C44 12 52 20 52 32 C52 44 44 52 32 52 C20 52 12 44 12 32 Z" fill="#FFD600" stroke="#D32F2F" stroke-width="2"/>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shell logo - iconic scallop shell design -->
+  <!-- Main shell shape - proper scallop fan -->
+  <path d="M60 10 C30 10 10 30 10 60 C10 90 30 110 60 110 C90 110 110 90 110 60 C110 30 90 10 60 10 Z" fill="#FFD600" stroke="#D32F2F" stroke-width="2"/>
   
-  <!-- Shell spiral pattern -->
-  <path d="M32 16 C24 16 18 22 18 30 C18 38 24 44 32 44 C40 44 46 38 46 30 C46 22 40 16 32 16 Z" fill="none" stroke="#D32F2F" stroke-width="2"/>
-  <path d="M32 20 C26 20 22 24 22 30 C22 36 26 40 32 40 C38 40 42 36 42 30 C42 24 38 20 32 20 Z" fill="none" stroke="#D32F2F" stroke-width="2"/>
-  <path d="M32 24 C28 24 26 26 26 30 C26 34 28 36 32 36 C36 36 38 34 38 30 C38 26 36 24 32 24 Z" fill="none" stroke="#D32F2F" stroke-width="2"/>
+  <!-- Curved radiating lines (flutes) that converge at bottom -->
+  <path d="M60 15 Q60 60 60 105" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M45 20 Q52 60 55 100" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M75 20 Q68 60 65 100" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M35 30 Q45 60 50 95" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M85 30 Q75 60 70 95" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M25 45 Q38 60 45 90" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M95 45 Q82 60 75 90" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M20 60 Q35 60 40 85" stroke="#D32F2F" stroke-width="2"/>
+  <path d="M100 60 Q85 60 80 85" stroke="#D32F2F" stroke-width="2"/>
   
-  <!-- Shell opening -->
-  <ellipse cx="32" cy="30" rx="4" ry="2" fill="#D32F2F"/>
+  <!-- Bottom hinge/opening -->
+  <path d="M50 105 Q60 110 70 105" stroke="#D32F2F" stroke-width="3" fill="none"/>
 </svg>

@@ -1,10 +1,56 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="24" cy="24" r="20" fill="#fff" stroke="#6C3483" stroke-width="2"/>
-  <circle cx="24" cy="8" r="2" fill="#F9D423"/>
-  <circle cx="36" cy="14" r="2" fill="#F97C2B"/>
-  <circle cx="40" cy="28" r="2" fill="#F44336"/>
-  <circle cx="32" cy="40" r="2" fill="#4CAF50"/>
-  <circle cx="16" cy="40" r="2" fill="#2196F3"/>
-  <circle cx="8" cy="28" r="2" fill="#3F51B5"/>
-  <circle cx="12" cy="14" r="2" fill="#9C27B0"/>
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wipro Logo -->
+  
+  <!-- Text "wipro" in dark purple -->
+  <text x="5" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#2E1A47" text-transform="lowercase">wipro</text>
+  
+  <!-- Colorful spiral dot pattern -->
+  <!-- Outer ring - greens and light blues -->
+  <circle cx="70" cy="12" r="2" fill="#4CAF50"/>
+  <circle cx="73" cy="15" r="2" fill="#66BB6A"/>
+  <circle cx="76" cy="18" r="2" fill="#81C784"/>
+  <circle cx="79" cy="21" r="2" fill="#4FC3F7"/>
+  <circle cx="82" cy="24" r="2" fill="#29B6F6"/>
+  
+  <!-- Second ring - darker blues -->
+  <circle cx="68" cy="18" r="1.5" fill="#1976D2"/>
+  <circle cx="71" cy="21" r="1.5" fill="#1565C0"/>
+  <circle cx="74" cy="24" r="1.5" fill="#0D47A1"/>
+  <circle cx="77" cy="27" r="1.5" fill="#3F51B5"/>
+  <circle cx="80" cy="30" r="1.5" fill="#5C6BC0"/>
+  
+  <!-- Third ring - purples -->
+  <circle cx="65" cy="24" r="1.2" fill="#7B1FA2"/>
+  <circle cx="68" cy="27" r="1.2" fill="#8E24AA"/>
+  <circle cx="71" cy="30" r="1.2" fill="#9C27B0"/>
+  <circle cx="74" cy="33" r="1.2" fill="#AB47BC"/>
+  <circle cx="77" cy="36" r="1.2" fill="#BA68C8"/>
+  
+  <!-- Fourth ring - pinks and reds -->
+  <circle cx="62" cy="30" r="1" fill="#E91E63"/>
+  <circle cx="65" cy="33" r="1" fill="#F06292"/>
+  <circle cx="68" cy="36" r="1" fill="#F44336"/>
+  <circle cx="71" cy="39" r="1" fill="#EF5350"/>
+  <circle cx="74" cy="42" r="1" fill="#FF5722"/>
+  
+  <!-- Fifth ring - oranges and yellows -->
+  <circle cx="59" cy="36" r="0.8" fill="#FF9800"/>
+  <circle cx="62" cy="39" r="0.8" fill="#FFB74D"/>
+  <circle cx="65" cy="42" r="0.8" fill="#FFC107"/>
+  <circle cx="68" cy="45" r="0.8" fill="#FFD54F"/>
+  <circle cx="71" cy="48" r="0.8" fill="#FFEB3B"/>
+  
+  <!-- Inner rings - smaller dots -->
+  <circle cx="56" cy="42" r="0.6" fill="#4CAF50"/>
+  <circle cx="59" cy="45" r="0.6" fill="#29B6F6"/>
+  <circle cx="62" cy="48" r="0.6" fill="#9C27B0"/>
+  <circle cx="65" cy="51" r="0.6" fill="#F44336"/>
+  <circle cx="68" cy="54" r="0.6" fill="#FF9800"/>
+  
+  <!-- Center dots -->
+  <circle cx="53" cy="48" r="0.5" fill="#4CAF50"/>
+  <circle cx="56" cy="51" r="0.5" fill="#29B6F6"/>
+  <circle cx="59" cy="54" r="0.5" fill="#9C27B0"/>
+  <circle cx="62" cy="57" r="0.5" fill="#F44336"/>
+  <circle cx="65" cy="60" r="0.5" fill="#FF9800"/>
 </svg> 
